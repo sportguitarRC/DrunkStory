@@ -21,7 +21,6 @@ public class InventoryObject : MonoBehaviour {
 
     void OnTriggerEnter2D(Collider2D other)
     {
-        Debug.Log("AWAILLE SPORTGUITAR");
         if (other.tag == "Player")
         {
             other.GetComponent<Inventory>().IncreaseObjectAmount(typeObject);
