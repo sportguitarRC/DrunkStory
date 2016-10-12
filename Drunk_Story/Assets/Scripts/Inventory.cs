@@ -22,8 +22,8 @@ public class Inventory : MonoBehaviour {
     {
         switch (typeObject)
         {
-            case TypeObject.BeerCan:
-                nbOfCan--;
+		case TypeObject.BeerCan:
+				nbOfCan++;
                 break;
         }
     }
