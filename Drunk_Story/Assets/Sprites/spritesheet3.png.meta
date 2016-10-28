@@ -1,4 +1,5 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
 guid: 2a2380dd5a3915649b028d1179e10b24
 timeCreated: 1477575552
 licenseType: Free
@@ -18,6 +19,17 @@ TextureImporter:
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
+=======
+guid: 64202ccba3d671f4bb1b0b812f60edc3
+timeCreated: 1477677036
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName: {}
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+>>>>>>> f1e330d148d5cca63f7fa86af87061b0ecd25192
     linearTexture: 0
     correctGamma: 0
     fadeOut: 0
@@ -40,7 +52,11 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     filterMode: -1
+<<<<<<< HEAD
     aniso: 16
+=======
+    aniso: -1
+>>>>>>> f1e330d148d5cca63f7fa86af87061b0ecd25192
     mipBias: -1
     wrapMode: 1
   nPOTScale: 0
@@ -48,7 +64,11 @@ TextureImporter:
   rGBM: 0
   compressionQuality: 50
   allowsAlphaSplitting: 0
+<<<<<<< HEAD
   spriteMode: 2
+=======
+  spriteMode: 1
+>>>>>>> f1e330d148d5cca63f7fa86af87061b0ecd25192
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -61,6 +81,7 @@ TextureImporter:
   buildTargetSettings: []
   spriteSheet:
     serializedVersion: 2
+<<<<<<< HEAD
     sprites:
     - serializedVersion: 2
       name: ReadHeadDudeStanding
@@ -192,6 +213,9 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
+=======
+    sprites: []
+>>>>>>> f1e330d148d5cca63f7fa86af87061b0ecd25192
     outline: []
   spritePackingTag: 
   userData: 
