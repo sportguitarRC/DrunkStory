@@ -1,0 +1,199 @@
+fileFormatVersion: 2
+guid: 2a2380dd5a3915649b028d1179e10b24
+timeCreated: 1477575552
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: ReadHeadDudeStanding
+    21300002: ReadHeadDudeRunning1
+    21300004: ReadHeadDudeRunning2
+    21300006: ReadHeadRunning3
+    21300008: ReadHeadDudeRunning4
+    21300010: spritesheet3_5
+    21300012: BlackHairDudeStanding
+    21300014: BlackHairDudeRunning1
+    21300016: BlackHairDudeRunning2
+    21300018: BlackHairDudeRunning3
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ReadHeadDudeStanding
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 106
+        width: 30
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ReadHeadDudeRunning1
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 106
+        width: 44
+        height: 74
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ReadHeadDudeRunning2
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 106
+        width: 52
+        height: 77
+      alignment: 9
+      pivot: {x: 0.5619994, y: 0.5109227}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ReadHeadRunning3
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 106
+        width: 47
+        height: 74
+      alignment: 9
+      pivot: {x: 0.61983216, y: 0.48052505}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ReadHeadDudeRunning4
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 106
+        width: 40
+        height: 77
+      alignment: 9
+      pivot: {x: 0.7745987, y: 0.5144453}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritesheet3_5
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 18
+        width: 40
+        height: 77
+      alignment: 9
+      pivot: {x: 0.7721268, y: 0.5181167}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BlackHairDudeStanding
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 18
+        width: 30
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BlackHairDudeRunning1
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 18
+        width: 44
+        height: 74
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BlackHairDudeRunning2
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 18
+        width: 52
+        height: 77
+      alignment: 9
+      pivot: {x: 0.5619994, y: 0.51092273}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BlackHairDudeRunning3
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 18
+        width: 47
+        height: 74
+      alignment: 9
+      pivot: {x: 0.62526166, y: 0.48863482}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
