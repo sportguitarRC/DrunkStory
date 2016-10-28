@@ -6,6 +6,7 @@ public class Player : MonoBehaviour {
 
 	public float jumpHeight = 4;
 	public float timeToJumpApex = .4f;
+    public string pNumber;
 	float accelerationTimeAirborne = .2f;
 	float accelerationTimeGrounded = .1f;
 	float moveSpeed = 6;
@@ -22,7 +23,6 @@ public class Player : MonoBehaviour {
 
 		gravity = -(2 * jumpHeight) / Mathf.Pow (timeToJumpApex, 2);
 		jumpVelocity = Mathf.Abs(gravity) * timeToJumpApex;
-		print ("Gravity: " + gravity + "  Jump Velocity: " + jumpVelocity);
 	}
 
 	void Update() {
@@ -31,9 +31,9 @@ public class Player : MonoBehaviour {
 			velocity.y = 0;
 		}
 
-		Vector2 input = new Vector2 (Input.GetAxisRaw ("Horizontal"), Input.GetAxisRaw ("Vertical"));
+		Vector2 input = new Vector2 (Input.GetAxisRaw ( pNumber + "Horizontal"), Input.GetAxisRaw (pNumber + "Vertical"));
 
-		if (Input.GetKeyDown (KeyCode.Space) && controller.collisions.below) {
+		if (Input.GetButtonDown (pNumber + "Jump") && controller.collisions.below) {
 			velocity.y = jumpVelocity;
 		}
 
