@@ -35,6 +35,7 @@ public class Player : MonoBehaviour {
 
 		if (Input.GetButtonDown (pNumber + "Jump") && controller.collisions.below) {
 			velocity.y = jumpVelocity;
+        
 		}
 
 		float targetVelocityX = input.x * moveSpeed;
