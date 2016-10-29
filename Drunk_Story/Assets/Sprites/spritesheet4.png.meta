@@ -1,20 +1,17 @@
 fileFormatVersion: 2
-guid: 500abcf0f7d5dbd4092fb9241a898b71
-timeCreated: 1477768716
+guid: e9c7f5d71dceca242a33c7abfceaa863
+timeCreated: 1477768815
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
-    21300000: spritesheet1_0
-    21300002: spritesheet1_1
-    21300004: spritesheet1_2
-    21300006: spritesheet1_5
-    21300008: spritesheet1_8
-    21300010: spritesheet1_11
-    21300012: spritesheet1_27
-    21300014: spritesheet1_28
-    21300016: spritesheet1_29
-    21300018: spritesheet1_30
-    21300020: spritesheet1_31
+    21300000: spritesheet4_0
+    21300002: spritesheet4_1
+    21300004: spritesheet4_2
+    21300006: spritesheet4_3
+    21300008: spritesheet4_4
+    21300010: spritesheet4_5
+    21300012: spritesheet4_6
+    21300014: spritesheet4_7
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -64,145 +61,106 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: spritesheet1_0
+      name: spritesheet4_0
       rect:
         serializedVersion: 2
-        x: 7
-        y: 39
-        width: 19
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: spritesheet1_1
-      rect:
-        serializedVersion: 2
-        x: 44
-        y: 39
-        width: 13
-        height: 33
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: spritesheet1_2
-      rect:
-        serializedVersion: 2
-        x: 73
-        y: 41
-        width: 25
-        height: 29
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: spritesheet1_5
-      rect:
-        serializedVersion: 2
-        x: 104
-        y: 41
-        width: 30
-        height: 31
+        x: 17
+        y: 467
+        width: 363
+        height: 130
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: spritesheet1_8
+      name: spritesheet4_1
       rect:
         serializedVersion: 2
-        x: 138
-        y: 41
-        width: 29
-        height: 31
-      alignment: 9
-      pivot: {x: -0.4416487, y: 0.23191833}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: spritesheet1_11
-      rect:
-        serializedVersion: 2
-        x: 172
-        y: 40
-        width: 30
-        height: 31
+        x: 470
+        y: 486
+        width: 65
+        height: 64
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: spritesheet1_27
+      name: spritesheet4_2
       rect:
         serializedVersion: 2
-        x: 4
-        y: 8
-        width: 24
-        height: 27
+        x: 19
+        y: 325
+        width: 363
+        height: 126
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritesheet4_3
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 407
+        width: 362
+        height: 62
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: spritesheet1_28
+      name: spritesheet4_4
       rect:
         serializedVersion: 2
-        x: 37
-        y: 9
-        width: 22
-        height: 26
+        x: 19
+        y: 193
+        width: 363
+        height: 126
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spritesheet4_5
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 274
+        width: 363
+        height: 97
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: spritesheet1_29
+      name: spritesheet4_6
       rect:
         serializedVersion: 2
-        x: 70
-        y: 6
-        width: 31
-        height: 31
+        x: 19
+        y: 58
+        width: 363
+        height: 126
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: spritesheet1_30
+      name: spritesheet4_7
       rect:
         serializedVersion: 2
-        x: 104
-        y: 8
-        width: 30
-        height: 28
+        x: 413
+        y: 127
+        width: 363
+        height: 121
       alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: spritesheet1_31
-      rect:
-        serializedVersion: 2
-        x: 138
-        y: 5
-        width: 29
-        height: 33
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0

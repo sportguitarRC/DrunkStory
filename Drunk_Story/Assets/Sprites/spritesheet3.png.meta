@@ -1,35 +1,23 @@
 fileFormatVersion: 2
-<<<<<<< HEAD
 guid: 2a2380dd5a3915649b028d1179e10b24
-timeCreated: 1477575552
+timeCreated: 1477768793
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
-    21300000: ReadHeadDudeStanding
-    21300002: ReadHeadDudeRunning1
-    21300004: ReadHeadDudeRunning2
-    21300006: ReadHeadRunning3
-    21300008: ReadHeadDudeRunning4
+    21300000: spritesheet3_0
+    21300002: spritesheet3_1
+    21300004: spritesheet3_2
+    21300006: spritesheet3_3
+    21300008: spritesheet3_4
     21300010: spritesheet3_5
-    21300012: BlackHairDudeStanding
-    21300014: BlackHairDudeRunning1
-    21300016: BlackHairDudeRunning2
-    21300018: BlackHairDudeRunning3
-  serializedVersion: 2
-  mipmaps:
-    mipMapMode: 0
-    enableMipMap: 0
-=======
-guid: 64202ccba3d671f4bb1b0b812f60edc3
-timeCreated: 1477677036
-licenseType: Free
-TextureImporter:
-  fileIDToRecycleName: {}
+    21300012: spritesheet3_6
+    21300014: spritesheet3_7
+    21300016: spritesheet3_8
+    21300018: spritesheet3_9
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
     enableMipMap: 1
->>>>>>> f1e330d148d5cca63f7fa86af87061b0ecd25192
     linearTexture: 0
     correctGamma: 0
     fadeOut: 0
@@ -51,12 +39,8 @@ TextureImporter:
   textureFormat: -1
   maxTextureSize: 2048
   textureSettings:
-    filterMode: -1
-<<<<<<< HEAD
+    filterMode: 0
     aniso: 16
-=======
-    aniso: -1
->>>>>>> f1e330d148d5cca63f7fa86af87061b0ecd25192
     mipBias: -1
     wrapMode: 1
   nPOTScale: 0
@@ -64,11 +48,7 @@ TextureImporter:
   rGBM: 0
   compressionQuality: 50
   allowsAlphaSplitting: 0
-<<<<<<< HEAD
   spriteMode: 2
-=======
-  spriteMode: 1
->>>>>>> f1e330d148d5cca63f7fa86af87061b0ecd25192
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -81,36 +61,35 @@ TextureImporter:
   buildTargetSettings: []
   spriteSheet:
     serializedVersion: 2
-<<<<<<< HEAD
     sprites:
     - serializedVersion: 2
-      name: ReadHeadDudeStanding
+      name: spritesheet3_0
       rect:
         serializedVersion: 2
         x: 15
         y: 106
         width: 30
         height: 77
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.5815348, y: 0.56882805}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: ReadHeadDudeRunning1
+      name: spritesheet3_1
       rect:
         serializedVersion: 2
         x: 117
         y: 106
         width: 44
         height: 74
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.527796, y: 0.5716184}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: ReadHeadDudeRunning2
+      name: spritesheet3_2
       rect:
         serializedVersion: 2
         x: 175
@@ -118,25 +97,25 @@ TextureImporter:
         width: 52
         height: 77
       alignment: 9
-      pivot: {x: 0.5619994, y: 0.5109227}
+      pivot: {x: 0.57839876, y: 0.57941705}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: ReadHeadRunning3
+      name: spritesheet3_3
       rect:
         serializedVersion: 2
-        x: 232
+        x: 233
         y: 106
         width: 47
         height: 74
       alignment: 9
-      pivot: {x: 0.61983216, y: 0.48052505}
+      pivot: {x: 0.6214346, y: 0.555091}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: ReadHeadDudeRunning4
+      name: spritesheet3_4
       rect:
         serializedVersion: 2
         x: 294
@@ -144,7 +123,7 @@ TextureImporter:
         width: 40
         height: 77
       alignment: 9
-      pivot: {x: 0.7745987, y: 0.5144453}
+      pivot: {x: 0.77517927, y: 0.6005949}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -152,43 +131,30 @@ TextureImporter:
       name: spritesheet3_5
       rect:
         serializedVersion: 2
-        x: 291
-        y: 18
-        width: 40
-        height: 77
-      alignment: 9
-      pivot: {x: 0.7721268, y: 0.5181167}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: BlackHairDudeStanding
-      rect:
-        serializedVersion: 2
         x: 12
         y: 18
         width: 30
         height: 77
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.5679456, y: 0.5953004}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: BlackHairDudeRunning1
+      name: spritesheet3_6
       rect:
         serializedVersion: 2
         x: 114
         y: 18
         width: 44
         height: 74
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.5648571, y: 0.5936548}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: BlackHairDudeRunning2
+      name: spritesheet3_7
       rect:
         serializedVersion: 2
         x: 172
@@ -196,12 +162,12 @@ TextureImporter:
         width: 52
         height: 77
       alignment: 9
-      pivot: {x: 0.5619994, y: 0.51092273}
+      pivot: {x: 0.60191846, y: 0.5953006}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: BlackHairDudeRunning3
+      name: spritesheet3_8
       rect:
         serializedVersion: 2
         x: 229
@@ -209,13 +175,23 @@ TextureImporter:
         width: 47
         height: 74
       alignment: 9
-      pivot: {x: 0.62526166, y: 0.48863482}
+      pivot: {x: 0.6474564, y: 0.57161844}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
-=======
-    sprites: []
->>>>>>> f1e330d148d5cca63f7fa86af87061b0ecd25192
+    - serializedVersion: 2
+      name: spritesheet3_9
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 18
+        width: 40
+        height: 77
+      alignment: 9
+      pivot: {x: 0.74460375, y: 0.6058894}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
     outline: []
   spritePackingTag: 
   userData: 
