@@ -30,4 +30,13 @@ public class FloatingCan : MonoBehaviour {
         varX += 0.1f;
         varY += 0.1f;
 	}
+
+    void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.tag == "Player")
+        {
+            //Augmenter le niveau de drunkiness du joueur en question
+            Destroy(gameObject);
+        }
+    }
 }
