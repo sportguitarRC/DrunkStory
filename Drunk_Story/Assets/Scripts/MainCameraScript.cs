@@ -17,11 +17,11 @@ public class MainCameraScript : MonoBehaviour {
         foreach (GameObject g in players)
             avgX += g.transform.position.x;
         avgX /= numberOfPlayers;
-        float avgY = 0;
+        /*float avgY = 0;
         foreach (GameObject g in players)
             avgY += g.transform.position.y;
-        avgY /= numberOfPlayers;
+        avgY /= numberOfPlayers;*/
 
-        transform.position = new Vector3(avgX, avgY, -10f);
+        transform.position = new Vector3(avgX, transform.position.y, -10f);
     }
 }
