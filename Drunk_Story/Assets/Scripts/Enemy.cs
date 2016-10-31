@@ -34,7 +34,7 @@ public class Enemy : MonoBehaviour {
         if (hit.collider != null && attackDelay == 0)
         {
             GameObject thrownObject = Instantiate(projectile, transform.position, Quaternion.identity) as GameObject;
-            thrownObject.GetComponent<Rigidbody2D>().AddForce(new Vector2(-5f, 5f), ForceMode2D.Impulse);
+            thrownObject.GetComponent<Rigidbody2D>().AddForce(new Vector2(5f, 5f), ForceMode2D.Impulse);
             attackDelay = 30;
         }
 	}
