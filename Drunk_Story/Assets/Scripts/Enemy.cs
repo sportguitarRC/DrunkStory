@@ -6,17 +6,23 @@ public class Enemy : MonoBehaviour {
     public float speed = 1;
     public GameObject projectile;
     public float attackDelay = 30;
+    Animator animator;
 
-	// Use this for initialization
-	void Start () {
-	
-	}
+    // Use this for initialization
+    void Start () {
+        animator = GetComponent<Animator>();
+    }
 	
 	// Update is called once per frame
 	void FixedUpdate () {
 	    if(GetComponent<SpriteRenderer>().isVisible)
         {
             transform.Translate(new Vector3(-1f, 0.0f, 0.0f) * speed * Time.deltaTime);
+            animator.SetBool("Move",true);
+        }
+        else
+        {
+            animator.SetBool("Move", false);
         }
 
         if (attackDelay > 0)
