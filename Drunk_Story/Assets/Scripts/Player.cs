@@ -19,12 +19,16 @@ public class Player : MonoBehaviour {
 
 	Controller2D controller;
 
+    float drunknessLevel;
+
 	void Start() {
 		controller = GetComponent<Controller2D> ();
         animator = GetComponent<Animator>();
 
         gravity = -(2 * jumpHeight) / Mathf.Pow (timeToJumpApex, 2);
 		jumpVelocity = Mathf.Abs(gravity) * timeToJumpApex;
+
+        ResetDrunkness();
 	}
 
 	void Update() {
@@ -39,12 +43,29 @@ public class Player : MonoBehaviour {
 			velocity.y = jumpVelocity;
         
 		}
-        
 
-		float targetVelocityX = input.x * moveSpeed;
+        if (drunknessLevel == 6)
+            Puke();
+
+		float targetVelocityX = input.x * (moveSpeed - drunknessLevel/2) ;
 		velocity.x = Mathf.SmoothDamp (velocity.x, targetVelocityX, ref velocityXSmoothing, (controller.collisions.below)?accelerationTimeGrounded:accelerationTimeAirborne);
         animator.SetFloat("currentSpeed", input.x);
 		velocity.y += gravity * Time.deltaTime;
 		controller.Move (velocity * Time.deltaTime);
 	}
+
+    void ResetDrunkness()
+    {
+        drunknessLevel = 0;
+    }
+
+    public void AugmenterDunkness()
+    {
+        drunknessLevel++;
+    }
+
+    void Puke()
+    {
+        drunknessLevel = drunknessLevel / 2;
+    }
 }
