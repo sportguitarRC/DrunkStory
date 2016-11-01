@@ -15,9 +15,10 @@ public class Enemy : MonoBehaviour {
 	
 	// Update is called once per frame
 	void FixedUpdate () {
-	    if(GetComponent<SpriteRenderer>().isVisible)
+
+        transform.Translate(new Vector3(1f, 0.0f, 0.0f) * speed * Time.deltaTime);
+        if (GetComponent<SpriteRenderer>().isVisible)
         {
-            transform.Translate(new Vector3(-1f, 0.0f, 0.0f) * speed * Time.deltaTime);
             animator.SetBool("Move",true);
         }
         else
@@ -29,12 +30,13 @@ public class Enemy : MonoBehaviour {
             attackDelay--;
 
 
-        int layerMask = 1 << LayerMask.NameToLayer("Player"); // Assigne true au layer "Destroyables", les autres sont à false
-        RaycastHit2D hit = Physics2D.Raycast(transform.position, new Vector2(-1, 0), 5, layerMask);
+        int layerMask = 1 << LayerMask.NameToLayer("Ground"); // Assigne true au layer "Destroyables", les autres sont à false
+        RaycastHit2D hit = Physics2D.Raycast(transform.position, new Vector2(0.5f, 0f), 5f, layerMask);
+        Debug.Log(hit.collider); 
         if (hit.collider != null && attackDelay == 0)
         {
             GameObject thrownObject = Instantiate(projectile, transform.position, Quaternion.identity) as GameObject;
-            thrownObject.GetComponent<Rigidbody2D>().AddForce(new Vector2(5f, 7f), ForceMode2D.Impulse);
+            thrownObject.GetComponent<Rigidbody2D>().AddForce(new Vector2(4f, 5f), ForceMode2D.Impulse);
             attackDelay = 30;
         }
 	}
