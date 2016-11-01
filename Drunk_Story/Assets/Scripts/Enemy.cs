@@ -3,7 +3,7 @@ using System.Collections;
 
 public class Enemy : MonoBehaviour {
 
-    public float speed = 1;
+    public float speed = 3;
     public GameObject projectile;
     public float attackDelay = 30;
     Animator animator;
@@ -36,7 +36,7 @@ public class Enemy : MonoBehaviour {
         if (hit.collider != null && attackDelay == 0)
         {
             GameObject thrownObject = Instantiate(projectile, transform.position, Quaternion.identity) as GameObject;
-            thrownObject.GetComponent<Rigidbody2D>().AddForce(new Vector2(4f, 5f), ForceMode2D.Impulse);
+            thrownObject.GetComponent<Rigidbody2D>().AddForce(new Vector2(8f, 5f), ForceMode2D.Impulse);
             attackDelay = 30;
         }
 	}

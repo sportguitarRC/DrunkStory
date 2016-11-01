@@ -18,9 +18,7 @@ public class FinalGirl : MonoBehaviour {
     {
         if (other.tag == "Player")
         {
-            GameObject Winner = GameObject.FindWithTag("Player");
-            //MARCHE PAS MAIS JE PUSH AU CAS OU DAUTRE PERSONNES VOULAIT FAIRE DE QUOI
-            //SceneManager.LoadScene("End");
+            SceneManager.LoadScene("End");
         }
     }
 }
