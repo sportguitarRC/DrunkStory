@@ -20,7 +20,7 @@ public class Player : MonoBehaviour
 
     Controller2D controller;
 
-    float drunknessLevel;
+    public float drunknessLevel;
 
     AudioSource[] sounds;
     AudioSource jumpSound;
@@ -87,5 +87,10 @@ public class Player : MonoBehaviour
     void Puke()
     {
         drunknessLevel = drunknessLevel / 2;
+    }
+
+    public float GetDrunkness()
+    {
+        return drunknessLevel;
     }
 }

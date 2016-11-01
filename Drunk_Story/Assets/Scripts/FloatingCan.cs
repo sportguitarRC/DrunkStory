@@ -36,8 +36,8 @@ public class FloatingCan : MonoBehaviour {
         if (other.tag == "Player")
         {
             //Augmenter le niveau de drunkiness du joueur en question
-            GameObject drunkGuy = GameObject.FindWithTag("Player");
-            drunkGuy.GetComponent<Player>().AugmenterDunkness();
+             other.GetComponent<Player>().AugmenterDunkness();
+
             Destroy(gameObject);
         }
     }
